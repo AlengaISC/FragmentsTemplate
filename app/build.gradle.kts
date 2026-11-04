@@ -9,11 +9,11 @@ plugins {
 
 android {
     // CAMBIAR: paquete de la app (namespace y applicationId, iguales)
-    namespace = "es.sanclemente.plantilla"
+    namespace = "es.sanclemente.navigationtemplate"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "es.sanclemente.plantilla"
+        applicationId = "es.sanclemente.navigationtemplate"
         minSdk = 24
         targetSdk = 36
         versionCode = 1

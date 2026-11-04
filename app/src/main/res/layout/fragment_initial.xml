@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:padding="24dp"
+	tools:context=".InitialFragment">
+	
+	<TextView
+		android:id="@+id/text_instructions"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:text="@string/instrucions"
+		android:textSize="18sp"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent" />
+	
+	<EditText
+		android:id="@+id/edit_message"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="16dp"
+		android:hint="@string/pista_mensaxe"
+		android:importantForAutofill="no"
+		android:inputType="text"
+		android:minHeight="48dp"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@id/text_instructions" />
+	
+	<Button
+		android:id="@+id/button_next"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="24dp"
+		android:text="@string/seguinte"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintTop_toBottomOf="@id/edit_message" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

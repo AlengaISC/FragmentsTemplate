@@ -20,5 +20,5 @@ dependencyResolutionManagement {
 }
 
 // CAMBIAR: nome do proxecto (o que se ve en Android Studio)
-rootProject.name = "PlantillaNavegacion"
+rootProject.name = "NavigationTemplate"
 include(":app")

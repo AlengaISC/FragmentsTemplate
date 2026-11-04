@@ -1,39 +1,38 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Grafo de navegación: destinos (fragmentos), accións entre eles e argumentos.
+<?xml version="1.0" encoding="utf-8"?><!-- Grafo de navegación: destinos (fragmentos), accións entre eles e argumentos.
      Safe Args xera a partir deste ficheiro:
        InicioFragmentDirections.accionInicioADetalle(mensaxe)
        DetalleFragmentArgs (args.mensaxe)
      Se cambias o paquete da app, cambia tamén os android:name. -->
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/nav_graph"
-    app:startDestination="@id/inicioFragment">
-
-    <fragment
-        android:id="@+id/inicioFragment"
-        android:name="es.sanclemente.plantilla.InicioFragment"
-        android:label="@string/titulo_inicio"
-        tools:layout="@layout/fragment_inicio">
-
-        <action
-            android:id="@+id/accion_inicio_a_detalle"
-            app:destination="@id/detalleFragment"
-            app:enterAnim="@anim/entrar_dereita"
-            app:exitAnim="@anim/sair_esquerda"
-            app:popEnterAnim="@anim/entrar_esquerda"
-            app:popExitAnim="@anim/sair_dereita" />
-    </fragment>
-
-    <fragment
-        android:id="@+id/detalleFragment"
-        android:name="es.sanclemente.plantilla.DetalleFragment"
-        android:label="@string/titulo_detalle"
-        tools:layout="@layout/fragment_detalle">
-
-        <argument
-            android:name="mensaxe"
-            app:argType="string" />
-    </fragment>
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/nav_graph"
+	app:startDestination="@id/inicioFragment">
+	
+	<fragment
+		android:id="@+id/inicioFragment"
+		android:name="es.sanclemente.navigationtemplate.InitialFragment"
+		android:label="@string/titulo_inicio"
+		tools:layout="@layout/fragment_initial">
+		
+		<action
+			android:id="@+id/accion_inicio_a_detalle"
+			app:destination="@id/detailFragment"
+			app:enterAnim="@anim/entrar_dereita"
+			app:exitAnim="@anim/sair_esquerda"
+			app:popEnterAnim="@anim/entrar_esquerda"
+			app:popExitAnim="@anim/sair_dereita" />
+	</fragment>
+	
+	<fragment
+		android:id="@+id/detailFragment"
+		android:name="es.sanclemente.navigationtemplate.FragmentDetail"
+		android:label="@string/titulo_detalle"
+		tools:layout="@layout/fragment_detalle">
+		
+		<argument
+			android:name="message"
+			app:argType="string" />
+	</fragment>
 
 </navigation>

@@ -1,15 +1,15 @@
 <resources>
-    <!-- NoActionBar: a barra é a MaterialToolbar do activity_main.xml -->
-    <style name="Base.Theme.Plantilla" parent="Theme.Material3.DayNight.NoActionBar">
-        <item name="colorPrimary">@color/cor_principal</item>
-        <item name="colorOnPrimary">@color/cor_sobre_principal</item>
-        <item name="colorSecondary">@color/cor_secundaria</item>
-    </style>
-
-    <style name="Theme.Plantilla" parent="Base.Theme.Plantilla" />
-
-    <!-- Tema só para a barra: a frecha de Navigation colle a súa cor de colorControlNormal -->
-    <style name="ThemeOverlay.Plantilla.Barra" parent="">
-        <item name="colorControlNormal">?attr/colorOnPrimary</item>
-    </style>
+	<!-- NoActionBar: a barra é a MaterialToolbar do activity_main.xml -->
+	<style name="Base.Theme.Plantilla" parent="Theme.Material3.DayNight.NoActionBar">
+		<item name="colorPrimary">@color/primary</item>
+		<item name="colorOnPrimary">@color/white</item>
+		<item name="colorSecondary">@color/secondary</item>
+	</style>
+	
+	<style name="Theme.Plantilla" parent="Base.Theme.Plantilla" />
+	
+	<!-- Tema só para a barra: a frecha de Navigation colle a súa cor de colorControlNormal -->
+	<style name="ThemeOverlay.Plantilla.Barra" parent="">
+		<item name="colorControlNormal">?attr/colorOnPrimary</item>
+	</style>
 </resources>
