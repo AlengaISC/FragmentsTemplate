@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Plantilla</string>
+
+    <string name="titulo_inicio">Inicio</string>
+    <string name="titulo_detalle">Detalle</string>
+
+    <string name="instrucions">Escribe algo y pulsa «Siguiente». El texto viaja al otro fragmento como argumento de Safe Args.</string>
+    <string name="pista_mensaxe">Mensaje</string>
+    <string name="seguinte">Siguiente</string>
+
+    <string name="recibido">Recibido:</string>
+    <string name="sen_mensaxe">(sin mensaje)</string>
+    <string name="volver">Volver</string>
+</resources>

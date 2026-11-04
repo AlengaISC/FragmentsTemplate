@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Icona da plantilla: dúas pantallas e unha frecha (navegar dunha a outra).
+     Para a icona definitiva: File → New → Image Asset. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M30,36h18v36h-18z" />
+    <path
+        android:fillColor="#FF9DC3E6"
+        android:pathData="M60,36h18v36h-18z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M48,52h6v-5l7,7l-7,7v-5h-6z" />
+</vector>

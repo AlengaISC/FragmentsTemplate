@@ -1,0 +1,8 @@
+<resources>
+    <!-- CAMBIAR: cores da app -->
+    <color name="cor_principal">#FF1F3864</color>
+    <color name="cor_sobre_principal">#FFFFFFFF</color>
+    <color name="cor_secundaria">#FF4F81BD</color>
+
+    <color name="icona_fondo">#FF1F3864</color>
+</resources>

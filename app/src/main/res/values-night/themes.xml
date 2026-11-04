@@ -1,0 +1,7 @@
+<resources>
+    <style name="Base.Theme.Plantilla" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/cor_principal</item>
+        <item name="colorOnPrimary">@color/cor_sobre_principal</item>
+        <item name="colorSecondary">@color/cor_secundaria</item>
+    </style>
+</resources>
