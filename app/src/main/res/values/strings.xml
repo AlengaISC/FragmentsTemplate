@@ -2,14 +2,15 @@
 	<!-- CAMBIAR: nome da app no lanzador -->
 	<string name="app_name">NavigationTemplate</string>
 	
-	<string name="titulo_inicio">Inicio</string>
-	<string name="titulo_detalle">Detalle</string>
+	<string name="title_home">Home</string>
+	<string name="title_detail">Detail</string>
 	
-	<string name="instrucions">Escribe algo e pulsa «Seguinte». O texto viaxa ao outro fragmento como argumento de Safe Args.</string>
-	<string name="pista_mensaxe">Mensaxe</string>
-	<string name="seguinte">Seguinte</string>
+	<string name="instructions">Write something and click "Next". The text is sent to the following fragment as a Safe Args argument.</string>
+	<string name="hint_message">Message</string>
+	<string name="message_empty">(no message)</string>
 	
-	<string name="recibido">Recibido:</string>
-	<string name="sen_mensaxe">(sen mensaxe)</string>
-	<string name="volver">Volver</string>
+	<string name="label_received">Received:</string>
+	
+	<string name="action_next">Next</string>
+	<string name="action_back">Go back</string>
 </resources>

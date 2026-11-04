@@ -45,7 +45,7 @@ class InitialFragment : Fragment() {
 
             // Safe Args generates type-safe navigation directions from nav_graph.xml.
             // The generated action passes the message to the destination Fragment.
-            val accion = InicioFragmentDirections.accionInicioADetalle(texto)
+            val accion = InitialFragmentDirections.accionInicioADetalle(texto)
             findNavController().navigate(accion)
         }
     }

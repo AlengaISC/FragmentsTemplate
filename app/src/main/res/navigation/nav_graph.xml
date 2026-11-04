@@ -12,7 +12,7 @@
 	<fragment
 		android:id="@+id/inicioFragment"
 		android:name="es.sanclemente.navigationtemplate.InitialFragment"
-		android:label="@string/titulo_inicio"
+		android:label="@string/title_home"
 		tools:layout="@layout/fragment_initial">
 		
 		<action
@@ -27,7 +27,7 @@
 	<fragment
 		android:id="@+id/detailFragment"
 		android:name="es.sanclemente.navigationtemplate.FragmentDetail"
-		android:label="@string/titulo_detalle"
+		android:label="@string/title_detail"
 		tools:layout="@layout/fragment_detalle">
 		
 		<argument

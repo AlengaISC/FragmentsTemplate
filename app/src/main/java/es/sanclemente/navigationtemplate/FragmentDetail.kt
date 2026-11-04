@@ -46,8 +46,8 @@ class FragmentDetail : Fragment() {
         // Displays the message received through Safe Args.
         // If the message is empty or contains only whitespace, displays
         // the default text defined in strings.xml instead.
-        binding.textMessage.text = args.mensaxe.ifBlank {
-            getString(R.string.sen_mensaxe)
+        binding.textMessage.text = args.message.ifBlank {
+            getString(R.string.message_empty)
         }
 
         // Returns to the previous navigation destination.

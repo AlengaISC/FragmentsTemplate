@@ -11,7 +11,7 @@
 		android:id="@+id/text_received"
 		android:layout_width="0dp"
 		android:layout_height="wrap_content"
-		android:text="@string/recibido"
+		android:text="@string/label_received"
 		android:textSize="16sp"
 		app:layout_constraintEnd_toEndOf="parent"
 		app:layout_constraintStart_toStartOf="parent"
@@ -34,7 +34,7 @@
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:layout_marginTop="24dp"
-		android:text="@string/volver"
+		android:text="@string/action_back"
 		app:layout_constraintStart_toStartOf="parent"
 		app:layout_constraintTop_toBottomOf="@id/text_message" />
 

@@ -11,7 +11,7 @@
 		android:id="@+id/text_instructions"
 		android:layout_width="0dp"
 		android:layout_height="wrap_content"
-		android:text="@string/instrucions"
+		android:text="@string/instructions"
 		android:textSize="18sp"
 		app:layout_constraintEnd_toEndOf="parent"
 		app:layout_constraintStart_toStartOf="parent"
@@ -22,7 +22,7 @@
 		android:layout_width="0dp"
 		android:layout_height="wrap_content"
 		android:layout_marginTop="16dp"
-		android:hint="@string/pista_mensaxe"
+		android:hint="@string/hint_message"
 		android:importantForAutofill="no"
 		android:inputType="text"
 		android:minHeight="48dp"
@@ -35,7 +35,7 @@
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:layout_marginTop="24dp"
-		android:text="@string/seguinte"
+		android:text="@string/action_next"
 		app:layout_constraintEnd_toEndOf="parent"
 		app:layout_constraintTop_toBottomOf="@id/edit_message" />
 
